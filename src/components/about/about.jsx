@@ -1,10 +1,11 @@
 import React from 'react'
 import './about.css';
+import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 const about = () => {
   return (
-    <div>
-      about
-    </div>
+   <section id="about" >
+about
+   </section>
   )
 }
 
